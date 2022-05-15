@@ -1,7 +1,10 @@
 # purpledogPrj
 
+### 회언 테이블 create query
+```sql
 CREATE TABLE `member` (
   `id` varchar(20) NOT NULL,
   `password` varchar(20) NOT NULL,
   PRIMARY KEY (`id`)
 )
+```
