@@ -1,0 +1,15 @@
+
+# DataSource
+spring:
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://localhost:3306/sys?autoReconnect=true
+    username: root
+    password: 1004
+
+# mybatis
+mybatis:
+  mapper-locations: classpath:mapper/**/*.xml
+  type-aliases-package: com.example.purpledogprj.**.vo
+  configuration:
+    mapUnderscoreToCamelCase: true
